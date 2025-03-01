@@ -8,7 +8,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.support.rowset.SqlRowSet;
 import org.springframework.stereotype.Repository;
 
-import com.CollabFusion.COLLABFUSIONPROEJCT.models.Client;
+import com.CollabFusion.COLLABFUSIONPROEJCT.models.Client; 
 
 @Repository
 public class ClientsRepository { 
