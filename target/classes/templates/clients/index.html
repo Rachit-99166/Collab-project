@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org"
+                 xmlns:sec="http://www.thymeleaf.org">
+  <head th:replace="~{layout :: page_head}">
+
+
+  </head>
+  <body>
+    <nav  th:replace="~{layout :: page_navbar}"></nav>
+
+    <div class="container py-5">
+        <h1 class="text-center"><b>List of Contributors</b></h1>
+        <a class="btn btn-primary mb-3" href="/clients/create">Add Contributor</a>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>TITLE</th>
+                    <th>CONTRIBUTOR NAME</th>
+                    <th>EMAIL</th>
+                    <th>PUBLISHER NAME</th>
+                    <th>CREATED AT</th>
+                    <th>ACTION</th>
+                </tr>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr th:each="client : ${clients}">
+                    <td th:text="${client.id}"></td>
+                    <td th:text="${client.title}"></td>
+                    <td th:text="${client.contributorName}"></td>
+                    <td th:text="${client.email}"></td>
+                    <td th:text="${client.publisherName}"></td>
+                    <td th:text="${client.createdAt.substring(0,10)}"></td>
+                    <td style="white-space:nowrap">
+                        <a class="btn btn-primary btn-sm" th:href="@{/clients/edit(id=${client.id})}">Edit</a>
+                        <a class="btn btn-danger btn-sm" th:href="@{/clients/delete(id=${client.id})}" 
+                        onclick="return confirm('Are you sure?')">Delete</a>
+                        <a class="btn btn-primary btn-sm" th:href="@{/clients/edit(id=${client.id})}">Details</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <footer th:replace="~{layout :: page_footer}"></footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
