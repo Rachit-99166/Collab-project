@@ -13,7 +13,7 @@ Java, SpringBoot, Bootstrap, Html, Css, Javascript, Rest API and Sql.
 If you are using Vscode for the project then just click on 
 
 Run Java or Normal Run Code
- 
+  
 Or
 
 To clean and build your project,
