@@ -61,7 +61,7 @@ public class ClientsRepository {
                 client.getCreatedAt());
         if (count > 0) {
             int id = jdbcTemplate.queryForObject("SELECT LAST_INSERT_ID()", Integer.class);
-            return getClient(id);
+            return getClient(id); 
         }
         return null;
     }
