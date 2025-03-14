@@ -40,7 +40,7 @@ public class ClientsRepository {
             Client client = new Client();
             client.setId(rows.getInt("id"));
             client.setTitle(rows.getString("title"));
-            client.setContributorName(rows.getString("contributor_name"));
+            client.setContributorName(rows.getString("contributor_name")); 
             client.setEmail(rows.getString("email"));
             client.setPublisherName(rows.getString("publisher_name"));
             client.setCreatedAt(rows.getString("created_at"));
