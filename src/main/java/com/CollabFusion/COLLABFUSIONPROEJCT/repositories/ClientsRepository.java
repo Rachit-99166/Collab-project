@@ -22,7 +22,7 @@ public class ClientsRepository {
         SqlRowSet rows = jdbcTemplate.queryForRowSet(sql);
         while (rows.next()) {
             Client client = new Client();
-            client.setId(rows.getInt("id"));
+            client.setId(rows.getInt("id")); 
             client.setTitle(rows.getString("title")); 
             client.setContributorName(rows.getString("contributor_name"));
             client.setEmail(rows.getString("email"));
