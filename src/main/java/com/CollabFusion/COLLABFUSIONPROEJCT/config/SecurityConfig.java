@@ -35,7 +35,6 @@ public class SecurityConfig {
                 .permitAll()
                 )
                 .build();
-
     }
 
     @Bean
