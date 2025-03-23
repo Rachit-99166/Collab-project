@@ -24,7 +24,6 @@ public class customerUserService implements UserDetailsService {
         }
         return User.withUsername(customerUser.getEmail())
                 .password(customerUser.getPassword())
-                // .roles(customerUser.getRole())
                 .build();
     }
 }
