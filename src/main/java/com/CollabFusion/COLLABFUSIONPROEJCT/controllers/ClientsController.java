@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.CollabFusion.COLLABFUSIONPROEJCT.models.Client;
 import com.CollabFusion.COLLABFUSIONPROEJCT.repositories.ClientsRepository;
 
-@Controller 
+@Controller
 @RequestMapping("/clients")
-public class ClientsController { 
- 
+public class ClientsController {
+
     @Autowired
-    private ClientsRepository repo;  
+    private ClientsRepository repo;
 
     @GetMapping
     public String getClients(Model model) {

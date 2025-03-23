@@ -22,11 +22,9 @@ public class customerUserService implements UserDetailsService {
         if (customerUser == null) {
             throw new UsernameNotFoundException("User not found with email: " + email);
         }
-
         return User.withUsername(customerUser.getEmail())
                 .password(customerUser.getPassword())
-                .roles(customerUser.getRole())
+                // .roles(customerUser.getRole())
                 .build();
     }
-
 }

@@ -74,5 +74,4 @@ public class RegisterDto {
     public void setConfirmPassword(String confirmPassword) {
         this.confirmPassword = confirmPassword;
     }
-
 }
