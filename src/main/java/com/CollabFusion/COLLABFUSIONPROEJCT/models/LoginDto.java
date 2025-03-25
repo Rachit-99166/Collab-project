@@ -1,7 +1,7 @@
 package com.CollabFusion.COLLABFUSIONPROEJCT.models;
 
 import jakarta.validation.constraints.NotEmpty;
-
+ 
 public class LoginDto {
 
     @NotEmpty 
