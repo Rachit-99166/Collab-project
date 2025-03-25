@@ -4,7 +4,7 @@ import jakarta.validation.constraints.NotEmpty;
 
 public class LoginDto {
 
-    @NotEmpty
+    @NotEmpty 
     private String username;
     @NotEmpty
     private String password; 
