@@ -16,7 +16,7 @@ import com.CollabFusion.COLLABFUSIONPROEJCT.repositories.ClientsRepository;
 public class ClientsController {
 
     @Autowired
-    private ClientsRepository repo;
+    private ClientsRepository repo; 
 
     @GetMapping
     public String getClients(Model model) {
