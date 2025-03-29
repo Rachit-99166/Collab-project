@@ -82,7 +82,7 @@ public class AccountController {
     @PostMapping("/login")
     public String login() {
 
-        return "redirect:/home";
+        return "redirect:/home"; 
     }
 
 }
