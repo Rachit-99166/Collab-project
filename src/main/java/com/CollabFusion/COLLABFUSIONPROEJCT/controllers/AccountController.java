@@ -69,7 +69,7 @@ public class AccountController {
         } catch (Exception ex) {
             result.addError(
                     new FieldError("registerDto", "firstName", ex.getMessage())
-            );
+            ); 
         }
         return "register";
     }
