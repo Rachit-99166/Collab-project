@@ -16,7 +16,7 @@ public class customerUserService implements UserDetailsService {
     @Autowired 
     private customerUserRepository repo;
 
-    @Override
+    @Override 
     public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
         customerUser customerUser = repo.findByEmail(email);
         if (customerUser == null) {
