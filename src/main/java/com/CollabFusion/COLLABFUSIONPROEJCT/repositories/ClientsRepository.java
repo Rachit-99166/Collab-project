@@ -20,7 +20,7 @@ public class ClientsRepository {
     public List<Client> getClients() {
         // var clients = new ArrayList<Client>();
         List<Client> clients=new ArrayList<>();
-        String sql = "SELECT * FROM clients ORDER BY id ASC";
+        String sql = "SELECT * FROM clients ORDER BY id ASC"; 
         SqlRowSet rows = jdbcTemplate.queryForRowSet(sql);
         while (rows.next()) {
             Client client = new Client();
