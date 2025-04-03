@@ -13,7 +13,7 @@ import com.CollabFusion.COLLABFUSIONPROEJCT.repositories.customerUserRepository;
 @Service
 public class customerUserService implements UserDetailsService {
 
-    @Autowired
+    @Autowired 
     private customerUserRepository repo;
 
     @Override
