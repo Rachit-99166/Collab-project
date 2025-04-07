@@ -13,7 +13,7 @@ public class loginController {
 
     @GetMapping("/contact")
     public String contact() {
-        return "contact";
+        return "contact"; 
     }
 
     @GetMapping("/privacy")
