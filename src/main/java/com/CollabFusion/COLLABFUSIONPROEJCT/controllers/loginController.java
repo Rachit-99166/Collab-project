@@ -16,7 +16,7 @@ public class loginController {
         return "contact"; 
     }
 
-    @GetMapping("/privacy")
+    @GetMapping("/privacy") 
     public String privacy() {
         return "privacy";
     }
