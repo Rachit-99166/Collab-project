@@ -7,7 +7,7 @@ Made an full-stack project centered around an open-source platform where publish
 ## 🛠 Skills 
 
 Java, SpringBoot, Bootstrap, Html, Css, Javascript, Rest API and Sql.
-
+ 
 
 ## Deployment
 If you are using Vscode for the project then just click on  
