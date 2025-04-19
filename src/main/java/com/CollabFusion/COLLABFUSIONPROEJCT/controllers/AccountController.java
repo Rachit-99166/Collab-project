@@ -16,7 +16,7 @@ import com.CollabFusion.COLLABFUSIONPROEJCT.models.RegisterDto;
 import com.CollabFusion.COLLABFUSIONPROEJCT.models.customerUser; 
 import com.CollabFusion.COLLABFUSIONPROEJCT.repositories.customerUserRepository;
  
-import jakarta.validation.Valid;
+import jakarta.validation.Valid; 
 
 @Controller
 public class AccountController {
