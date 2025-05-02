@@ -11,7 +11,7 @@ import com.CollabFusion.COLLABFUSIONPROEJCT.models.customerUser;
 import com.CollabFusion.COLLABFUSIONPROEJCT.repositories.customerUserRepository;
 
 @Service
-public class customerUserService implements UserDetailsService {
+public class customerUserService implements UserDetailsService { 
 
     @Autowired 
     private customerUserRepository repo;
