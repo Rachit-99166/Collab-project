@@ -17,7 +17,7 @@ public class ClientsRepository {
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
-    public List<Client> getClients() {
+    public List<Client> getClients() { 
         // var clients = new ArrayList<Client>();
         List<Client> clients=new ArrayList<>();
         String sql = "SELECT * FROM clients ORDER BY id ASC"; 
