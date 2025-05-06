@@ -13,7 +13,7 @@ import com.CollabFusion.COLLABFUSIONPROEJCT.models.Client;
 
 @Repository
 public class ClientsRepository {
-
+ 
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
