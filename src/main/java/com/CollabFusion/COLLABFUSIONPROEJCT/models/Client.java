@@ -4,7 +4,7 @@
 
 //     private int id;
 //     private String title;
-//     private String contributorName;
+//     private String contributorName; 
 //     private String email;
 //     private String publisherName;
 //     private String createdAt;
