@@ -18,7 +18,7 @@ public class ClientsController {
     @Autowired
     private ClientsRepository repo; 
  
-    @GetMapping
+    @GetMapping 
     public String getClients(Model model) {
         List<Client> clients = repo.getClients();
         model.addAttribute("clients", clients);
