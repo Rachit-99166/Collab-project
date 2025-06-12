@@ -14,7 +14,7 @@ If you are using Vscode for the project then just click on
 
 Run Java or Normal Run Code
  
-Or 
+Or  
 
 To clean and build your project,  
 
