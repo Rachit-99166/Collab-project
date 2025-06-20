@@ -16,7 +16,7 @@ Run Java or Normal Run Code
  
 Or   
 
-To clean and build your project,  
+To clean and build your project,   
 
 mvn clean install
  
