@@ -9,7 +9,7 @@ Made an full-stack project centered around an open-source platform where publish
 Java, SpringBoot, Bootstrap, Html, Css, Javascript, Rest API and Sql.
  
 
-## Deployment
+## Deployment 
 If you are using Vscode for the project then just click on  
 
 Run Java or Normal Run Code
