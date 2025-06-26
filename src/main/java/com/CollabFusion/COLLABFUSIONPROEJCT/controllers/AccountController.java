@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import com.CollabFusion.COLLABFUSIONPROEJCT.models.RegisterDto;
 import com.CollabFusion.COLLABFUSIONPROEJCT.models.customerUser;
-import com.CollabFusion.COLLABFUSIONPROEJCT.repositories.customerUserRepository;
+import com.CollabFusion.COLLABFUSIONPROEJCT.repositories.customerUserRepository; 
 
 import jakarta.validation.Valid;
 
