@@ -10,7 +10,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping; 
+import org.springframework.web.bind.annotation.PostMapping;  
 
 import com.CollabFusion.COLLABFUSIONPROEJCT.models.RegisterDto;
 import com.CollabFusion.COLLABFUSIONPROEJCT.models.customerUser;
