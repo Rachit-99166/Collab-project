@@ -9,7 +9,7 @@ public class LoginDto {
     @NotEmpty
     private String password; 
 
-    public String getUsername() {
+    public String getUsername() { 
         return username;
     }
 
