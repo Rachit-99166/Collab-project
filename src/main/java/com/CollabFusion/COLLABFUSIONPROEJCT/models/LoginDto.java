@@ -10,7 +10,7 @@ public class LoginDto {
     private String password; 
 
     public String getUsername() { 
-        return username;
+        return username; 
     }  
 
     public void setUsername(String username) {
